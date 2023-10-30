@@ -1,0 +1,56 @@
+*{ margin: 0;
+   padding: 0;
+ color: #D9D9D9;
+}
+body{
+
+}
+.logo {
+    display: flex;
+    width: 80px;
+    margin-left: 90px;
+    transform: rotate(180deg);
+}
+.logo:hover{
+    display: flex;
+    width: 80px;
+    margin-left: 90px;
+    transform: rotate(-180deg);
+    transition: 5s;
+}
+.navbar{
+    background-color: #EB6440;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+.butoes{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-left: 70rem;
+}
+.registro,  .login{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+main{
+    display: grid;
+    margin-left: 8px;
+    margin-top: 70px;
+}
+footer{
+    background-color: #EB6440;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    height: 70px;
+    text-shadow: 2px 2px #716c6c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 70px;
+}
